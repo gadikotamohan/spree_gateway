@@ -16,12 +16,12 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  spree_version = '>= 3.1.0', '< 4.0'
+  spree_version = '>= 3.1.0'#, '< 4.0'
   s.add_dependency 'spree_core', spree_version
   s.add_dependency 'spree_extension'
 
   s.add_development_dependency 'appraisal'
-  s.add_development_dependency 'bootstrap-sass', '>= 3.3.5.1'
+  s.add_development_dependency 'bootstrap'
   s.add_development_dependency 'braintree'
   s.add_development_dependency 'capybara'
   s.add_development_dependency 'capybara-screenshot'
